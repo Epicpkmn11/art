@@ -1,0 +1,11 @@
+<svg width="640" height="1136" xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<rect width="640" height="1136" style="fill:#EB8687" />
+		<path style="fill:#61B844" d="M 0,990 640,740 V 380 L 0,630 Z" />
+		<path style="fill:#F4B221" d="M 0,990 640,740 V 440 L 0,690 Z" />
+		<path style="fill:#F7801C" d="M 0,990 640,740 V 500 L 0,750 Z" />
+		<path style="fill:#E03F3C" d="M 0,990 640,740 V 560 L 0,810 Z" />
+		<path style="fill:#923E99" d="M 0,990 640,740 V 620 L 0,870 Z" />
+		<path style="fill:#009DDD" d="M 0,990 640,740 V 680 L 0,930 Z" />
+	</g>
+</svg>
