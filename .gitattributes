@@ -1,0 +1,4 @@
+*.ass diff=ini text
+*.rpp diff=xml text
+*.ust diff=ini text
+*.ustx diff=yaml text
