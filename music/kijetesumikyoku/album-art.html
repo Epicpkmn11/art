@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>kijetesumikyoku</title>
+
+	<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
+	<style>
+		:root {
+			--block-size: 720px;
+			--inline-size: 720px;
+		}
+
+		main {
+			/* works any direction! */
+			writing-mode: vertical-rl;
+
+			position: relative;
+			inline-size: var(--inline-size);
+			block-size: var(--block-size);
+			margin-top: 5px;
+			margin-left: 5px;
+			background-color: black;
+			color: white;
+			font-size: 5rem;
+		}
+
+		.container {
+			position: absolute;
+		}
+
+		.container.top {
+			inset-inline-start: 5rem;
+		}
+
+		.container.bottom {
+			inset-inline-end: 5rem;
+		}
+
+		.inner {
+			position: relative;
+			display: table-cell;
+			vertical-align: middle;
+			block-size: var(--block-size);
+		}
+
+		p {
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<div class="container top">
+			<div class="inner">
+				<p>からま</p>
+				<p>むし</p>
+				<p>すり</p>
+				<p>ぴ</p>
+				<p>からま</p>
+				<p>むし</p>
+			</div>
+		</div>
+		<div class="container bottom">
+			<div class="inner">
+				<p>つ</p>
+				<p>たん</p>
+				<p>くるぷ</p>
+				<p>ぴ</p>
+				<p>とき</p>
+				<p>ぽな</p>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
