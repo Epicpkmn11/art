@@ -5293,7 +5293,7 @@ voice_parts:
   - position: 127440
     duration: 240
     tone: 73
-    lyric: る
+    lyric: れ
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
