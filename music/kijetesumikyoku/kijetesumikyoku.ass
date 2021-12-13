@@ -20,7 +20,7 @@ Video Zoom Percent: 0.375000
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: toki pona,Georgia,75,&H0045D4DA,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,6,2,20,20,40,1
-Style: Vötgil,Consolas,70,&H00D15C42,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,6,2,20,20,40,1
+Style: Lojban,Consolas,70,&H00D15C42,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,6,2,20,20,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -173,13 +173,13 @@ Dialogue: 0,0:06:54.45,0:06:57.40,toki pona,,0,0,0,,{\k57}si{\k54}na {\k33}wi{\k
 Dialogue: 0,0:06:57.40,0:07:01.11,toki pona,,0,0,0,,{\k24}e {\k24}pa{\k16}li {\k26}su{\k24}li {\k42}si{\k23}na {\k192}a
 Dialogue: 0,0:07:01.11,0:07:04.65,toki pona,,0,0,0,,{\k26}jan {\k22}an{\k22}te {\k63}li {\k25}o{\k66}lin {\k22}li{\k44}li {\k64}e
 Dialogue: 0,0:07:04.65,0:07:09.16,toki pona,,0,0,0,,{\k24}si{\k24}na. {\k32}{\k52}mi {\k23}o{\k69}lin {\k40}mu{\k43}te {\k22}e {\k47}si{\k75}na
-Dialogue: 0,0:07:17.44,0:07:19.28,Vötgil,,0,0,0,,{\k28}.i {\k27}gap{\k28}ru {\k12}fa {\k16}lo {\k47}cni{\k26}ta
-Dialogue: 0,0:07:19.28,0:07:21.08,Vötgil,,0,0,0,,{\k17}.i {\k22}cra{\k23}ne {\k22}fa {\k18}lo {\k47}tri{\k31}xe
-Dialogue: 0,0:07:21.08,0:07:24.22,Vötgil,,0,0,0,,{\k14}.i {\k42}no {\k44}da {\k44}dju{\k20}no {\k26}lo {\k20}du {\k19}da {\k27}kla{\k19}ma {\k23}ma {\k16}kau
-Dialogue: 0,0:07:24.22,0:07:25.92,Vötgil,,0,0,0,,{\k8}.i {\k10}ku{\k9}'i {\k12}ro {\k11}da {\k20}ba{\k52}jra{\k48}
-Dialogue: 0,0:07:25.92,0:07:27.68,Vötgil,,0,0,0,,{\k11}.i {\k11}ku{\k12}'i {\k11}ro {\k11}da {\k20}ba{\k100}jra
-Dialogue: 0,0:07:27.68,0:07:29.42,Vötgil,,0,0,0,,{\k11}.i {\k11}ku{\k12}'i {\k11}ro {\k11}da {\k20}ba{\k98}jra
-Dialogue: 0,0:07:29.42,0:07:32.14,Vötgil,,0,0,0,,{\k11}.i {\k11}ku{\k12}'i {\k11}ro {\k11}da {\k20}ba{\k165}jra{\k31}
+Dialogue: 0,0:07:17.44,0:07:19.28,Lojban,,0,0,0,,{\k28}.i {\k27}gap{\k28}ru {\k12}fa {\k16}lo {\k47}cni{\k26}ta
+Dialogue: 0,0:07:19.28,0:07:21.08,Lojban,,0,0,0,,{\k17}.i {\k22}cra{\k23}ne {\k22}fa {\k18}lo {\k47}tri{\k31}xe
+Dialogue: 0,0:07:21.08,0:07:24.22,Lojban,,0,0,0,,{\k14}.i {\k42}no {\k44}da {\k44}dju{\k20}no {\k26}lo {\k20}du {\k19}da {\k27}kla{\k19}ma {\k23}ma {\k16}kau
+Dialogue: 0,0:07:24.22,0:07:25.92,Lojban,,0,0,0,,{\k8}.i {\k10}ku{\k9}'i {\k12}ro {\k11}da {\k20}ba{\k52}jra{\k48}
+Dialogue: 0,0:07:25.92,0:07:27.68,Lojban,,0,0,0,,{\k11}.i {\k11}ku{\k12}'i {\k11}ro {\k11}da {\k20}ba{\k100}jra
+Dialogue: 0,0:07:27.68,0:07:29.42,Lojban,,0,0,0,,{\k11}.i {\k11}ku{\k12}'i {\k11}ro {\k11}da {\k20}ba{\k98}jra
+Dialogue: 0,0:07:29.42,0:07:32.14,Lojban,,0,0,0,,{\k11}.i {\k11}ku{\k12}'i {\k11}ro {\k11}da {\k20}ba{\k165}jra{\k31}
 Dialogue: 0,0:07:32.14,0:07:33.04,toki pona,,0,0,0,,{\k15}a{\k9}le {\k11}li {\k23}po{\k32}na
 Dialogue: 0,0:07:33.04,0:07:34.12,toki pona,,0,0,0,,{\k12}po{\k11}ki {\k11}li {\k33}we{\k41}ka
 Dialogue: 0,0:07:34.12,0:07:35.56,toki pona,,0,0,0,,{\k15}lu{\k9}kin {\k11}na{\k10}sa {\k13}li {\k30}lon {\k13}a{\k43}la
@@ -254,7 +254,7 @@ Dialogue: 0,0:10:25.14,0:10:28.64,toki pona,,0,0,0,,{\k34}tan {\k36}in{\k23}sa {
 Dialogue: 0,0:10:28.64,0:10:30.40,toki pona,,0,0,0,,{\k36}o {\k32}ta{\k27}wa {\k29}wa{\k52}so
 Dialogue: 0,0:10:30.40,0:10:32.16,toki pona,,0,0,0,,{\k35}lon {\k33}se{\k21}wi {\k34}la{\k53}so!
 Dialogue: 0,0:10:32.16,0:10:34.56,toki pona,,0,0,0,,{\k34}o {\k32}pi{\k21}lin {\k45}e {\k45}su{\k63}no
-Dialogue: 0,0:10:34.56,0:10:36.40,toki pona,,0,0,0,,{\k45}(pi{\k20}lin {\k19}e {\k19}su{\k81}no)
+Dialogue: 0,0:10:34.56,0:10:36.40,toki pona,,0,0,0,,{\k45}(pi{\k20}lin {\k19}e{\k19}sun{\k81} o)
 Dialogue: 0,0:10:35.66,0:10:37.40,toki pona,,0,0,0,,{\k35}ten{\k32}po {\k24}ka{\k21}ma{\k62}la
 Dialogue: 0,0:10:37.40,0:10:39.16,toki pona,,0,0,0,,{\k33}mi {\k35}lon {\k22}wi{\k35}le {\k51}pi
 Dialogue: 0,0:10:39.16,0:10:42.60,toki pona,,0,0,0,,{\k35}ku{\k33}lu{\k22}pu {\k32}jan {\k33}ten{\k189}po

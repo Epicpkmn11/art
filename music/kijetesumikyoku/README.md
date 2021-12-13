@@ -1,6 +1,6 @@
 OpenUtau cover of jan Misali's [kijetesumikyoku](https://youtu.be/S-pg3xNfTMA) using 重音テト (Kasane Teto).
 
-- `.ustx` files are from [OpenUtau](https://github.com/stakira/OpenUtau) using [重音テト](http://kasaneteto.jp)'s VCV (toki pona) and CVVC (Vötgil) voicebanks
+- `.ustx` files are from [OpenUtau](https://github.com/stakira/OpenUtau) using [重音テト](http://kasaneteto.jp)'s VCV (toki pona) and CVVC (Lojban) voicebanks
 - `.rpp` files are from [REAPER](https://www.reaper.fm)
 - `.ass` files are from [Aegisub](https://github.com/Aegisub/Aegisub)
 

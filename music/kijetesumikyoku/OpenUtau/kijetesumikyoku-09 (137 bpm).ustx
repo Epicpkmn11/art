@@ -9215,7 +9215,7 @@ voice_parts:
     - {index: 0, abbr: vol, value: 80}
     phoneme_overrides: []
   - position: 1680
-    duration: 120
+    duration: 75
     tone: 80
     lyric: す
     pitch:
@@ -9228,10 +9228,23 @@ voice_parts:
     phoneme_expressions:
     - {index: 0, abbr: vol, value: 80}
     phoneme_overrides: []
+  - position: 1755
+    duration: 45
+    tone: 80
+    lyric: ん
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 6.8430657386779785, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
+    note_expressions: []
+    phoneme_expressions: []
+    phoneme_overrides: []
   - position: 1800
     duration: 840
     tone: 82
-    lyric: の
+    lyric: お
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -9433,7 +9446,7 @@ voice_parts:
     note_expressions: []
     phoneme_expressions: []
     phoneme_overrides: []
-- name: Vötgil Vocals
+- name: Lojban Vocals
   comment: ''
   track_no: 3
   position: 0
@@ -9441,7 +9454,7 @@ voice_parts:
   - position: 1680
     duration: 240
     tone: 60
-    lyric: .i[I]
+    lyric: .i[i]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -9454,7 +9467,7 @@ voice_parts:
   - position: 1920
     duration: 360
     tone: 67
-    lyric: gapru[g { p r V]
+    lyric: gapru[g a p r u]
     pitch:
       data:
       - {x: -40, y: -70, shape: io}
@@ -9480,7 +9493,7 @@ voice_parts:
   - position: 2520
     duration: 120
     tone: 62
-    lyric: fa[f {]
+    lyric: fa[f a]
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -9506,7 +9519,7 @@ voice_parts:
   - position: 2880
     duration: 480
     tone: 65
-    lyric: cnita[S n I t {]
+    lyric: cnita[S n i t a]
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -9515,7 +9528,9 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0}
     note_expressions: []
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 2
+      preutter_delta: -9.1240873336791992
   - position: 3360
     duration: 240
     tone: 62
@@ -9532,7 +9547,7 @@ voice_parts:
   - position: 3600
     duration: 240
     tone: 62
-    lyric: .i[I]
+    lyric: .i[i]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -9545,7 +9560,7 @@ voice_parts:
   - position: 3840
     duration: 240
     tone: 63
-    lyric: crane[S r { n E]
+    lyric: crane[S r a n E]
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -9571,7 +9586,7 @@ voice_parts:
   - position: 4320
     duration: 240
     tone: 63
-    lyric: fa[f {]
+    lyric: fa[f a]
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -9597,7 +9612,7 @@ voice_parts:
   - position: 4800
     duration: 480
     tone: 62
-    lyric: trixe[t r I D E]
+    lyric: trixe[t r i]
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -9610,7 +9625,7 @@ voice_parts:
   - position: 5280
     duration: 240
     tone: 59
-    lyric: +
+    lyric: '[h e]'
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -9623,7 +9638,7 @@ voice_parts:
   - position: 5520
     duration: 240
     tone: 59
-    lyric: .i[I]
+    lyric: .i[i]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -9649,7 +9664,7 @@ voice_parts:
   - position: 6240
     duration: 480
     tone: 63
-    lyric: da[d {]
+    lyric: da[d a]
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -9662,7 +9677,7 @@ voice_parts:
   - position: 6720
     duration: 480
     tone: 65
-    lyric: djuno[d Z V]
+    lyric: djuno[d Z u]
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -9701,7 +9716,7 @@ voice_parts:
   - position: 7680
     duration: 240
     tone: 63
-    lyric: du[d V]
+    lyric: du[d u]
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -9714,7 +9729,7 @@ voice_parts:
   - position: 7920
     duration: 240
     tone: 60
-    lyric: da[d {]
+    lyric: da[d a]
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -9727,7 +9742,7 @@ voice_parts:
   - position: 8160
     duration: 240
     tone: 63
-    lyric: klama[k l { m {]
+    lyric: klama[k l a m a]
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -9753,7 +9768,7 @@ voice_parts:
   - position: 8640
     duration: 240
     tone: 67
-    lyric: ma[m {]
+    lyric: ma[m a]
     pitch:
       data:
       - {x: -40, y: -70, shape: io}
@@ -9766,7 +9781,7 @@ voice_parts:
   - position: 8880
     duration: 120
     tone: 67
-    lyric: kau[k { V]
+    lyric: kau[k aU]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -9779,7 +9794,7 @@ voice_parts:
   - position: 9000
     duration: 120
     tone: 68
-    lyric: .i[I]
+    lyric: .i[i]
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -9792,7 +9807,7 @@ voice_parts:
   - position: 9120
     duration: 120
     tone: 67
-    lyric: ku[k V]
+    lyric: ku[k u]
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -9805,7 +9820,7 @@ voice_parts:
   - position: 9240
     duration: 120
     tone: 65
-    lyric: "'i[I]"
+    lyric: "'i[h i]"
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -9831,7 +9846,7 @@ voice_parts:
   - position: 9480
     duration: 120
     tone: 68
-    lyric: da[d {]
+    lyric: da[d a]
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -9844,7 +9859,7 @@ voice_parts:
   - position: 9600
     duration: 240
     tone: 67
-    lyric: bajra[b { Z r {]
+    lyric: bajra[b a Z r a]
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -9870,7 +9885,7 @@ voice_parts:
   - position: 10920
     duration: 120
     tone: 68
-    lyric: .i[I]
+    lyric: .i[i]
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -9896,7 +9911,7 @@ voice_parts:
   - position: 11160
     duration: 120
     tone: 65
-    lyric: "'i[I]"
+    lyric: "'i[h i]"
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -9922,7 +9937,7 @@ voice_parts:
   - position: 11400
     duration: 120
     tone: 68
-    lyric: da[d {]
+    lyric: da[d a]
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -9935,7 +9950,7 @@ voice_parts:
   - position: 11520
     duration: 240
     tone: 67
-    lyric: bajra[b { Z r {]
+    lyric: bajra[b a Z r a]
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -9987,7 +10002,7 @@ voice_parts:
   - position: 12840
     duration: 120
     tone: 68
-    lyric: .i[I]
+    lyric: .i[i]
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -10013,7 +10028,7 @@ voice_parts:
   - position: 13080
     duration: 120
     tone: 65
-    lyric: "'i[I]"
+    lyric: "'i[h i]"
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -10052,7 +10067,7 @@ voice_parts:
   - position: 13440
     duration: 240
     tone: 67
-    lyric: bajra[b { Z r {]
+    lyric: bajra[b a Z r a]
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -10091,7 +10106,7 @@ voice_parts:
   - position: 14760
     duration: 120
     tone: 67
-    lyric: i[I]
+    lyric: i[i]
     pitch:
       data:
       - {x: -40, y: -50, shape: io}
@@ -10117,7 +10132,7 @@ voice_parts:
   - position: 15000
     duration: 120
     tone: 66
-    lyric: "'i[I]"
+    lyric: "'i[h i]"
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -10156,7 +10171,7 @@ voice_parts:
   - position: 15360
     duration: 240
     tone: 67
-    lyric: bajra[b { Z r {]
+    lyric: bajra[b a Z r a]
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
