@@ -3,6 +3,9 @@
 *.rpp-bak
 *.reapeaks
 
-*.wav
 *.m4a
+*.mid
 *.mp4
+*.pdf
+*.wav
+*-autosave.ustx
