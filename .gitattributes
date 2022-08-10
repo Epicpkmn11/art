@@ -1,4 +1,6 @@
 *.ass  text diff=ini
 *.rpp  text diff=xml
-*.ust  binary # They're actually text files, but they're CRLF and Shift JIS, don't want git breaking that
 *.ustx text diff=yaml
+
+# They're actually text files, but they're CRLF and Shift JIS, don't want git breaking that
+*.ust  binary
