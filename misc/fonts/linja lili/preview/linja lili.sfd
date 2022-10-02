@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "liga" { "liga-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard Ligatures in Latin lookup 0-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -1968,7 +1969,7 @@ BDFChar: 6 102 8 2 5 1 7
 BDFChar: 7 103 8 1 5 0 5
 BUFU##]KbD
 BDFChar: 8 104 8 1 5 1 7
-J:N0SaG>WP
+J:OlFLkpie
 BDFChar: 9 105 8 2 4 1 6
 5QJSb5i;VB
 BDFChar: 10 106 8 3 4 0 6
