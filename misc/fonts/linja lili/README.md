@@ -1,6 +1,6 @@
 An 8×8 font for [sitelen pona](https://jan-ne.github.io/tp/sp). Includes everything marked 'core' and 'widespread' on [lipu Linku](https://lipu-linku.github.io) as of creation except for *soko* as I wanted to only only use 128 characters to fit in the upper half of an 8-bit encoding and it had the lowest recognition.
 
-The font is `linja lili.png`, or I also made a little [online preview](https://epicpkmn11.github.io/art/fonts/linja%20lili/preview/preview.html).
+The font is `linja lili.png`, or I also made a little [online preview](https://epicpkmn11.github.io/art/misc/fonts/linja%20lili/preview/preview.html).
 
 Sorted alphabetically left to right top to bottom, table as follows:
 
