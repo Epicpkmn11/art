@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>linja lili</title>
+	<style>
+		@font-face {
+			font-family: linja-lili;
+			src: url(linja-lili.dfont);
+		}
+
+		textarea {
+			font-family: linja-lili;
+			font-size: 8px;
+			padding: 5px;
+			width: 95vw;
+			height: 95vh;
+		}
+	</style>
+</head>
+<body>
+	<textarea id="input">
+		               
+		               
+		               
+		               
+		               
+		               
+		               
+		               
+	</textarea>
+
+	<script>
+		const mapping = {
+			"a": "\uE000",
+			"\uE000k\uE009si": "\uE001",
+			"\uE000\uE025": "\uE002",
+			"\uE002s\uE000": "\uE003",
+			"\uE000l\uE009": "\uE004",
+			"\uE000np\uE000": "\uE005",
+			"\uE000nt\uE009": "\uE006",
+			"\uE000nu": "\uE007",
+			"\uE000w\uE00A": "\uE008",
+			"e": "\uE009",
+			"\uE009n": "\uE00A",
+			"\uE009sun": "\uE00B",
+			"i\uE013": "\uE00C",
+			"ik\uE009": "\uE00D",
+			"il\uE04B": "\uE00E",
+			"ins\uE000": "\uE00F",
+			"j\uE000ki": "\uE010",
+			"j\uE000n": "\uE011",
+			"j\uE009l\uE04B": "\uE012",
+			"j\uE04B": "\uE013",
+			"k\uE002": "\uE014",
+			"\uE014\uE035": "\uE015",
+			"k\uE000\uE035": "\uE016",
+			"k\uE000si": "\uE017",
+			"k\uE00A": "\uE018",
+			"k\uE009p\uE009\uE018": "\uE019",
+			"kij\uE009t\uE009s\uE000nt\uE000k\uE000lu": "\uE01A",
+			"kili": "\uE01B",
+			"kin": "\uE01C",
+			"kipisi": "\uE01D",
+			"kiw\uE00A": "\uE01E",
+			"k\uE04B": "\uE01F",
+			"\uE01Fn": "\uE020",
+			"ku": "\uE021",
+			"\uE021l\uE009": "\uE022",
+			"\uE021lu\uE05C": "\uE023",
+			"\uE021t\uE009": "\uE024",
+			"l\uE000": "\uE025",
+			"\uE025p\uE009": "\uE026",
+			"\uE025s\uE04B": "\uE027",
+			"\uE025w\uE000": "\uE028",
+			"l\uE009\uE01F": "\uE029",
+			"l\uE00A": "\uE02A",
+			"l\uE009t\uE009": "\uE02B",
+			"li": "\uE02C",
+			"\uE02C\uE02C": "\uE02D",
+			"\uE02Cnj\uE000": "\uE02E",
+			"\uE02C\uE05C": "\uE02F",
+			"l\uE04Bj\uE009": "\uE030",
+			"l\uE04Bn": "\uE031",
+			"luk\uE000": "\uE032",
+			"lu\uE01C": "\uE033",
+			"lup\uE000": "\uE034",
+			"m\uE000": "\uE035",
+			"\uE035\uE035": "\uE036",
+			"\uE035\uE048": "\uE037",
+			"m\uE009\uE02C": "\uE038",
+			"mi": "\uE039",
+			"\uE039j\uE009": "\uE03A",
+			"m\uE04B\uE021": "\uE03B",
+			"m\uE04B\uE02C": "\uE03C",
+			"m\uE04Bnsi": "\uE03D",
+			"m\uE04Bnsut\uE000": "\uE03E",
+			"mu": "\uE03F",
+			"\uE03Fn": "\uE040",
+			"\uE03Fsi": "\uE041",
+			"\uE03Ft\uE009": "\uE042",
+			"n\uE000\uE035\uE01F": "\uE043",
+			"n\uE005": "\uE044",
+			"n\uE000s\uE000": "\uE045",
+			"n\uE000\uE064": "\uE046",
+			"n\uE00A\uE000": "\uE047",
+			"ni": "\uE048",
+			"\uE048\uE039": "\uE049",
+			"n\uE04Bk\uE000": "\uE04A",
+			"o": "\uE04B",
+			"\uE04B\uE02Cn": "\uE04C",
+			"\uE04Bn\uE000": "\uE04D",
+			"\uE04Bp\uE00A": "\uE04E",
+			"p\uE000\uE014": "\uE04F",
+			"p\uE000\uE02C": "\uE050",
+			"\uE050s\uE000": "\uE051",
+			"p\uE000n": "\uE052",
+			"\uE052\uE000": "\uE053",
+			"pi": "\uE054",
+			"\uE054\uE02Cn": "\uE055",
+			"\uE054m\uE009j\uE000": "\uE056",
+			"\uE054\uE048": "\uE057",
+			"\uE054\uE054": "\uE058",
+			"p\uE04Bk\uE000": "\uE059",
+			"p\uE04Bki": "\uE05A",
+			"p\uE04D": "\uE05B",
+			"pu": "\uE05C",
+			"s\uE000\uE035": "\uE05D",
+			"s\uE009\uE02C": "\uE05E",
+			"s\uE009l\uE04B": "\uE05F",
+			"s\uE009m\uE009": "\uE060",
+			"s\uE009wi": "\uE061",
+			"si\uE012": "\uE062",
+			"s\uE00D": "\uE063",
+			"sin": "\uE064",
+			"\uE064\uE000": "\uE065",
+			"\uE064pin": "\uE066",
+			"sit\uE009\uE02A": "\uE067",
+			"s\uE04D": "\uE068",
+			"s\uE04Bw\uE009\uE02C": "\uE069",
+			"su\uE02C": "\uE06A",
+			"sun\uE04B": "\uE06B",
+			"sup\uE000": "\uE06C",
+			"suwi": "\uE06D",
+			"t\uE000n": "\uE06E",
+			"t\uE000s\uE04B": "\uE06F",
+			"t\uE000w\uE000": "\uE070",
+			"t\uE009l\uE04B": "\uE071",
+			"t\uE00Ap\uE04B": "\uE072",
+			"t\uE04Bki": "\uE073",
+			"t\uE04Bm\uE04B": "\uE074",
+			"t\uE04Bnsi": "\uE075",
+			"tu": "\uE076",
+			"unp\uE000": "\uE077",
+			"ut\uE000": "\uE078",
+			"\uE078\uE025": "\uE079",
+			"w\uE000l\uE04B": "\uE07A",
+			"w\uE000n": "\uE07B",
+			"w\uE000s\uE04B": "\uE07C",
+			"w\uE000w\uE000": "\uE07D",
+			"w\uE009k\uE000": "\uE07E",
+			"wil\uE009": "\uE07F",
+		};
+
+		function toPrivateUse(str) {
+			for(item in mapping) {
+				str = str.replace(item, mapping[item]);
+			}
+
+			return str;
+		}
+
+		document.getElementById("input").addEventListener("keyup", function() {
+			var str = document.getElementById("input").value;
+			while(true) {
+				var temp = toPrivateUse(str);
+				if(temp == str)
+					break;
+				str = temp;
+			}
+
+			document.getElementById("input").value = toPrivateUse(str);
+		});
+	</script>
+</body>
+</html>
