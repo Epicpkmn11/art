@@ -5,11 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>linja lili</title>
 	<style>
-		@font-face {
-			font-family: linja-lili;
-			src: url(linja-lili.dfont);
-		}
-
 		textarea {
 			font-family: linja-lili;
 			font-size: 8px;
@@ -17,9 +12,16 @@
 			width: 95vw;
 			height: 95vh;
 		}
+
+		#warning {
+			display: none;
+			font-weight: bold;
+		}
 	</style>
 </head>
 <body>
+	<p id="warning">Please install <a href="linja-lili.dfont">the font</a>, I can't get this to work as a web font...</p>
+
 	<textarea id="input">
 		               
 		               
@@ -182,6 +184,20 @@
 
 			document.getElementById("input").value = toPrivateUse(str);
 		});
+
+		// Check for font
+		var span = document.createElement("span");
+		span.textContent = Array(100).join("w");
+		span.style.fontSize = "9999px";
+		span.style.opacity = "0";
+		span.style.position = "fixed";
+		document.body.appendChild(span);
+		span.style.fontFamily = "not-linja-lili";
+		var defaultSize = span.offsetWidth;
+		span.style.fontFamily = "linja-lili";
+		if(defaultSize == span.offsetWidth)
+			document.getElementById("warning").style.display = "block";
+		span.remove();
 	</script>
 </body>
 </html>
