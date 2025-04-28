@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1050" height="600">
+	<style>
+		text {
+			font: 60px "Times New Roman";
+			text-anchor: middle;
+			dominant-baseline: middle;
+			opacity: 0.8;
+		}
+
+		.fancy { font: 100px Birthstone }
+
+		.i { font-style: italic }
+
+		.small {
+			font-size: 60%;
+			opacity: 0.8;
+		}
+	</style>
+
+	<!-- Flag -->
+	<path fill="#557ebd" d="M0 0h1050v6000H0z"/>
+	<path fill="#7f857f" d="M0 0h1050v480H0z"/>
+	<path fill="#f2adfd" d="M0 0h1050v360H0z"/>
+	<path fill="#f5f5f5" d="M0 0h1050v240H0z"/>
+	<path fill="#ff95bb" d="M0 0h1050v120H0z"/>
+
+	<!-- Text -->
+	<text x="50%" y="60" class="fancy">LillySong Watson</text>
+	<text x="50%" y="540" class="i"><tspan class="small">https://</tspan>LillySong.bi<tspan class="small">/</tspan></text>
+
+	<!-- QR -->
+	<rect x="345" y="120" width="360" height="360" fill="#fff" />
+	<svg x="50%" y="50%" transform="translate(-185, -185)">
+		<path transform="scale(10)" stroke="#000" id="qrb" d="M4 4.5h7m2 0h1m2 0h3m4 0h2m1 0h7m-29 1h1m5 0h1m3 0h1m2 0h1m1 0h1m3 0h1m2 0h1m5 0h1m-29 1h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h2m1 0h1m1 0h2m2 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m1 0h1m2 0h1m1 0h3m1 0h1m2 0h1m1 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m3 0h3m2 0h2m1 0h2m2 0h1m1 0h3m1 0h1m-29 1h1m5 0h1m6 0h1m1 0h2m3 0h1m1 0h1m5 0h1m-29 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-20 1h5m1 0h1m1 0h4m-18 1h2m1 0h2m2 0h2m2 0h3m8 0h2m-24 1h1m7 0h1m1 0h1m3 0h2m4 0h2m1 0h2m-27 1h1m2 0h1m1 0h1m1 0h2m1 0h5m2 0h6m1 0h1m-24 1h3m3 0h1m2 0h2m1 0h1m1 0h1m2 0h2m4 0h1m2 0h1m-27 1h2m2 0h1m3 0h1m2 0h1m3 0h2m1 0h3m2 0h1m1 0h1m-27 1h1m2 0h2m1 0h5m1 0h3m6 0h1m1 0h1m1 0h2m-25 1h1m1 0h2m1 0h1m3 0h1m2 0h2m2 0h1m1 0h3m1 0h1m2 0h1m-29 1h1m1 0h3m5 0h1m1 0h5m7 0h5m-29 1h7m3 0h3m1 0h2m1 0h4m2 0h1m1 0h1m1 0h2m-29 1h1m3 0h2m2 0h2m1 0h1m6 0h1m4 0h4m-27 1h4m2 0h2m1 0h1m1 0h3m3 0h1m1 0h1m8 0h1m-29 1h3m1 0h2m1 0h1m1 0h1m2 0h3m1 0h2m3 0h4m1 0h2m-28 1h2m2 0h1m1 0h5m1 0h4m1 0h2m1 0h7m1 0h1m-21 1h1m2 0h2m1 0h2m2 0h1m1 0h1m3 0h4m-28 1h7m1 0h1m1 0h2m3 0h3m2 0h1m1 0h1m1 0h1m1 0h1m-27 1h1m5 0h1m3 0h1m2 0h1m1 0h1m3 0h2m3 0h2m2 0h1m-29 1h1m1 0h3m1 0h1m1 0h1m2 0h1m2 0h3m2 0h6m-25 1h1m1 0h3m1 0h1m1 0h3m1 0h1m2 0h1m2 0h1m4 0h1m3 0h1m-28 1h1m1 0h3m1 0h1m4 0h1m1 0h1m1 0h3m2 0h2m1 0h6m-29 1h1m5 0h1m3 0h4m1 0h1m1 0h2m5 0h3m1 0h1m-29 1h7m3 0h2m2 0h5m1 0h1m2 0h2"/>
+
+	</svg>
+</svg>
